@@ -7,10 +7,18 @@ const LogInBtn = () => {
     <>
       {!isAuthenticated && (
         <>
-          <button onClick={register} type="button">
+          <button
+            onClick={register}
+            type="button"
+            className="bg-zinc-900 text-white px-3 py-2 rounded"
+          >
             Register
           </button>
-          <button onClick={login} type="button">
+          <button
+            onClick={login}
+            type="button"
+            className="xs:ml-[10px] bg-zinc-900 text-white px-3 py-2 rounded"
+          >
             Log In
           </button>
         </>

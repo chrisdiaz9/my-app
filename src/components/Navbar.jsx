@@ -5,7 +5,7 @@ import LogInBtn from "./LoginBtn.jsx"
 const Navbar = () => {
   return (
     <header className="fixed left-0 top-0 w-full">
-      <nav className="container mx-auto flex items-center justify-between p-3">
+      <nav className="sm:container mx-auto sm:w-full flex items-center justify-between p-3">
         <div className="md:flex md:pr-[20px]">
           <a href="/" className="">
             <img

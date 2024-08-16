@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../assets/logo.png";
+import LogInBtn from "./LoginBtn.jsx"
 
 const Navbar = () => {
   return (
@@ -25,9 +26,7 @@ const Navbar = () => {
           </a>
         </div>
         <div className="items-center gap-4 md:flex md:flex-1 md:justify-end">
-          <a className="inline-flex items-center justify-center rounded-md text-sm font-medium border h-10 px-4 py-2">
-            Login
-          </a>
+          <LogInBtn />
         </div>
       </nav>
     </header>
